@@ -3,6 +3,6 @@ fn main() {
     println!("Spell a number: {}", number);
 
     // TODO: Fix the compiler error by changing the line below without renaming the variable.
-    number = 3;
-    println!("Number plus two is: {}", number + 2);
+    let number: &str = "T-H-R-E-E";
+    println!("Number plus two is: {}", number.to_owned() + "2");
 }
